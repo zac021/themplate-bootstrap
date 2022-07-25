@@ -1,0 +1,30 @@
+#img1{
+    width: 40px;
+    height: 40px;
+}
+#a1,#a2,#a3,#a4{
+    border: none !important;
+}
+.move{
+    display: block !important;
+    animation: x 6s linear;
+    
+}
+@keyframes x{
+    0%{
+        color:  rgb(203, 216, 228);
+        background-color: rgb(33, 104, 165);
+    }
+    10%{
+        color: rgb(175, 200, 223) ;
+        background-color:rgb(98, 152, 199) ;
+    }
+    20%{
+        color:rgb(98, 152, 199) ;
+        background-color: rgb(175, 200, 223);
+    }
+    30%{
+        color:rgb(33, 104, 165) ;
+        background-color: rgb(203, 216, 228);
+    }
+}
